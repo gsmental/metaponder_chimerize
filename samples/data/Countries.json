@@ -1,0 +1,12 @@
+[
+  { "countryId": 1, "countryName": "United States", "isdCode": "+1" },
+  { "countryId": 2, "countryName": "Canada", "isdCode": "+1" },
+  { "countryId": 3, "countryName": "India", "isdCode": "+91" },
+  { "countryId": 4, "countryName": "Australia", "isdCode": "+61" },
+  { "countryId": 5, "countryName": "United Kingdom", "isdCode": "+44" },
+  { "countryId": 6, "countryName": "Germany", "isdCode": "+49" },
+  { "countryId": 7, "countryName": "Japan", "isdCode": "+81" },
+  { "countryId": 8, "countryName": "France", "isdCode": "+33" },
+  { "countryId": 9, "countryName": "Brazil", "isdCode": "+55" },
+  { "countryId": 10, "countryName": "South Africa", "isdCode": "+27" }
+]

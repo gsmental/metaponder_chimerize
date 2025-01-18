@@ -1,0 +1,41 @@
+[
+  { "countryId": 1, "stateId": 101, "stateName": "California" },
+  { "countryId": 1, "stateId": 102, "stateName": "Texas" },
+  { "countryId": 1, "stateId": 103, "stateName": "Florida" },
+
+  { "countryId": 2, "stateId": 201, "stateName": "Ontario" },
+  { "countryId": 2, "stateId": 202, "stateName": "Quebec" },
+  { "countryId": 2, "stateId": 203, "stateName": "British Columbia" },
+
+  { "countryId": 3, "stateId": 301, "stateName": "Maharashtra" },
+  { "countryId": 3, "stateId": 302, "stateName": "Karnataka" },
+  { "countryId": 3, "stateId": 303, "stateName": "Punjab" },
+
+  { "countryId": 4, "stateId": 401, "stateName": "New South Wales" },
+  { "countryId": 4, "stateId": 402, "stateName": "Victoria" },
+  { "countryId": 4, "stateId": 403, "stateName": "Queensland" },
+
+  { "countryId": 5, "stateId": 501, "stateName": "England" },
+  { "countryId": 5, "stateId": 502, "stateName": "Scotland" },
+  { "countryId": 5, "stateId": 503, "stateName": "Wales" },
+
+  { "countryId": 6, "stateId": 601, "stateName": "Bavaria" },
+  { "countryId": 6, "stateId": 602, "stateName": "Berlin" },
+  { "countryId": 6, "stateId": 603, "stateName": "Saxony" },
+
+  { "countryId": 7, "stateId": 701, "stateName": "Tokyo" },
+  { "countryId": 7, "stateId": 702, "stateName": "Osaka" },
+  { "countryId": 7, "stateId": 703, "stateName": "Hokkaido" },
+
+  { "countryId": 8, "stateId": 801, "stateName": "Île-de-France" },
+  { "countryId": 8, "stateId": 802, "stateName": "Occitanie" },
+  { "countryId": 8, "stateId": 803, "stateName": "Provence-Alpes-Côte d'Azur" },
+
+  { "countryId": 9, "stateId": 901, "stateName": "São Paulo" },
+  { "countryId": 9, "stateId": 902, "stateName": "Rio de Janeiro" },
+  { "countryId": 9, "stateId": 903, "stateName": "Bahia" },
+
+  { "countryId": 10, "stateId": 1001, "stateName": "Gauteng" },
+  { "countryId": 10, "stateId": 1002, "stateName": "Western Cape" },
+  { "countryId": 10, "stateId": 1003, "stateName": "KwaZulu-Natal" }
+]
