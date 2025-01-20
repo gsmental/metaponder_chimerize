@@ -1,0 +1,224 @@
+{
+  "countries": [
+    {
+      "countryId": 1,
+      "countryName": "United States",
+      "isdCode": "+1",
+      "states": [
+        {
+          "stateId": 101,
+          "stateName": "California",
+          "cities": ["Los Angeles", "San Francisco"]
+        },
+        {
+          "stateId": 102,
+          "stateName": "Texas",
+          "cities": ["Houston", "Dallas"]
+        },
+        {
+          "stateId": 103,
+          "stateName": "Florida",
+          "cities": ["Miami", "Orlando"]
+        }
+      ]
+    },
+    {
+      "countryId": 2,
+      "countryName": "Canada",
+      "isdCode": "+1",
+      "states": [
+        {
+          "stateId": 201,
+          "stateName": "Ontario",
+          "cities": ["Toronto", "Ottawa"]
+        },
+        {
+          "stateId": 202,
+          "stateName": "Quebec",
+          "cities": ["Montreal", "Quebec City"]
+        },
+        {
+          "stateId": 203,
+          "stateName": "British Columbia",
+          "cities": ["Vancouver", "Victoria"]
+        }
+      ]
+    },
+    {
+      "countryId": 3,
+      "countryName": "India",
+      "isdCode": "+91",
+      "states": [
+        {
+          "stateId": 301,
+          "stateName": "Maharashtra",
+          "cities": ["Mumbai", "Pune"]
+        },
+        {
+          "stateId": 302,
+          "stateName": "Karnataka",
+          "cities": ["Bengaluru", "Mysuru"]
+        },
+        {
+          "stateId": 303,
+          "stateName": "Punjab",
+          "cities": ["Amritsar", "Ludhiana"]
+        }
+      ]
+    },
+    {
+      "countryId": 4,
+      "countryName": "Australia",
+      "isdCode": "+61",
+      "states": [
+        {
+          "stateId": 401,
+          "stateName": "New South Wales",
+          "cities": ["Sydney", "Newcastle"]
+        },
+        {
+          "stateId": 402,
+          "stateName": "Victoria",
+          "cities": ["Melbourne", "Geelong"]
+        },
+        {
+          "stateId": 403,
+          "stateName": "Queensland",
+          "cities": ["Brisbane", "Gold Coast"]
+        }
+      ]
+    },
+    {
+      "countryId": 5,
+      "countryName": "United Kingdom",
+      "isdCode": "+44",
+      "states": [
+        {
+          "stateId": 501,
+          "stateName": "England",
+          "cities": ["London", "Manchester"]
+        },
+        {
+          "stateId": 502,
+          "stateName": "Scotland",
+          "cities": ["Edinburgh", "Glasgow"]
+        },
+        {
+          "stateId": 503,
+          "stateName": "Wales",
+          "cities": ["Cardiff", "Swansea"]
+        }
+      ]
+    },
+    {
+      "countryId": 6,
+      "countryName": "Germany",
+      "isdCode": "+49",
+      "states": [
+        {
+          "stateId": 601,
+          "stateName": "Bavaria",
+          "cities": ["Munich", "Nuremberg"]
+        },
+        {
+          "stateId": 602,
+          "stateName": "Berlin",
+          "cities": ["Berlin", "Potsdam"]
+        },
+        {
+          "stateId": 603,
+          "stateName": "Saxony",
+          "cities": ["Dresden", "Leipzig"]
+        }
+      ]
+    },
+    {
+      "countryId": 7,
+      "countryName": "Japan",
+      "isdCode": "+81",
+      "states": [
+        {
+          "stateId": 701,
+          "stateName": "Tokyo",
+          "cities": ["Tokyo", "Yokohama"]
+        },
+        {
+          "stateId": 702,
+          "stateName": "Osaka",
+          "cities": ["Osaka", "Kobe"]
+        },
+        {
+          "stateId": 703,
+          "stateName": "Hokkaido",
+          "cities": ["Sapporo", "Hakodate"]
+        }
+      ]
+    },
+    {
+      "countryId": 8,
+      "countryName": "France",
+      "isdCode": "+33",
+      "states": [
+        {
+          "stateId": 801,
+          "stateName": "Île-de-France",
+          "cities": ["Paris", "Versailles"]
+        },
+        {
+          "stateId": 802,
+          "stateName": "Occitanie",
+          "cities": ["Toulouse", "Montpellier"]
+        },
+        {
+          "stateId": 803,
+          "stateName": "Provence-Alpes-Côte d'Azur",
+          "cities": ["Nice", "Marseille"]
+        }
+      ]
+    },
+    {
+      "countryId": 9,
+      "countryName": "Brazil",
+      "isdCode": "+55",
+      "states": [
+        {
+          "stateId": 901,
+          "stateName": "São Paulo",
+          "cities": ["São Paulo", "Campinas"]
+        },
+        {
+          "stateId": 902,
+          "stateName": "Rio de Janeiro",
+          "cities": ["Rio de Janeiro", "Niterói"]
+        },
+        {
+          "stateId": 903,
+          "stateName": "Bahia",
+          "cities": ["Salvador", "Feira de Santana"]
+        }
+      ]
+    },
+    {
+      "countryId": 10,
+      "countryName": "South Africa",
+      "isdCode": "+27",
+      "states": [
+        {
+          "stateId": 1001,
+          "stateName": "Gauteng",
+          "cities": ["Johannesburg", "Pretoria"]
+        },
+        {
+          "stateId": 1002,
+          "stateName": "Western Cape",
+          "cities": ["Cape Town", "Stellenbosch"]
+        },
+        {
+          "stateId": 1003,
+          "stateName": "KwaZulu-Natal",
+          "cities": ["Durban", "Pietermaritzburg"]
+        }
+      ]
+    }
+  ]
+}
