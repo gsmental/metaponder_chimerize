@@ -1,12 +1,5 @@
-import jsPDF from "jspdf";
-import autoTable from "jspdf-autotable";
-import { v4 as uuid } from "uuid";
-import axios from "./../serviceCall/axios";
 import Swal, { SweetAlertPosition } from "sweetalert2";
 
-type MultipleArraysToExcelType = {
-  [key: string]: any[];
-};
 
 interface SwalFireOptions {
   showOkButton?: boolean;
@@ -17,15 +10,6 @@ interface SwalFireOptions {
 
 declare const XLSX: any;
 export class AdvanceSolutionsNew {
-  static Axios_get = async (api) => {
-    try {
-      const response = await axios.get(`${api}`);
-      return response;
-    } catch (error) {
-      return error;
-    }
-  };
-
   static swal_fire_all = async (
     titleText: string,
     icon: "success" | "error" | "warning" | "info" | "question",
