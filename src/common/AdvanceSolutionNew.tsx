@@ -32,17 +32,17 @@ export class AdvanceSolutionsNew {
     });
   };
 
-  static swal_fire_saved = async () => {
-    this.swal_fire_all("Your data has been successfully saved!", "success");
-  };
+  // static swal_fire_saved = async () => {
+  //   this.swal_fire_all("Your data has been successfully saved!", "success");
+  // };
 
-  static swal_fire_delete = async () => {
-    this.swal_fire_all("Your data has been successfully deleted!", "success");
-  };
+  // static swal_fire_delete = async () => {
+  //   this.swal_fire_all("Your data has been successfully deleted!", "success");
+  // };
 
-  static swal_fire_update = async () => {
-    this.swal_fire_all("Your data has been successfully updated!", "success");
-  };
+  // static swal_fire_update = async () => {
+  //   this.swal_fire_all("Your data has been successfully updated!", "success");
+  // };
 
   static swal_fire_error = async (titleText: string) => {
     return Swal.fire({
