@@ -20,6 +20,11 @@ const Component = () => {
 
   const [image, setImage] = useState(null);
 
+  const to_get_image = () => {
+    
+    console.log("image:", image);
+  };
+
   return (
     <div>
       <MPSFileUpload
@@ -29,6 +34,7 @@ const Component = () => {
         showRequiredAsterisk={false}
         fileTypes=".png,.jpg,.jpeg"
       />
+      <MPSButtonSave onClickHandler={to_get_image} text="Save" />
     </div>
   );
 };

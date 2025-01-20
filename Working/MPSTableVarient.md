@@ -2,49 +2,38 @@
 import { MPSTableVarient } from "@/MPSComponents/MPSComponents";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import city from "../samples/data/Cities.json";
-
-interface Input {
-  ConfirmPassword: string;
-}
+import city from "../";
 
 const Component = () => {
-  const {
-    register,
-    setValue,
-    getValues,
-    formState: { errors },
-  } = useForm<Input>({
-    mode: "onChange",
-  });
+  const [StateList, setStateList] = useState<any[]>([]);
 
-  const [StudentList, setStudentList] = useState<any[]>([]);
+  useEffect(()=>{setStateList()},[])
 
   const Fields1: any = [
     {
-      FieldValue: "frm_RollNo",
-      FieldHeader: "Roll No.",
+      FieldValue: "countryId",
+      FieldHeader: "countryId",
       component: {
         type: "input",
         changeHandler: (i, val) => {
-          let arr = [...StudentList];
-          arr[i].frm_RollNo = val;
-          setStudentList(arr);
+          let arr = [...StateList];
+          arr[i].countryId = val;
+          setStateList(arr);
         },
       },
     },
     {
-      FieldValue: "MFD_SemId",
-      FieldHeader: "Semester",
+      FieldValue: "stateId",
+      FieldHeader: "stateId",
       showAggregation: true,
       aggregationHeader: "No. of Students",
-      aggregationFn: "sum",
+      aggregationFn: "sum",// there are many option
       component: {
         type: "select",
         changeHandler: (i, val) => {
-          let arr = [...StudentList];
-          arr[i].MFD_SemId = val;
-          setStudentList(arr);
+          let arr = [...StateList];
+          arr[i].stateId = val;
+          setStateList(arr);
         },
         options: {
           data: [
@@ -67,11 +56,11 @@ const Component = () => {
       },
     },
     {
-      FieldValue: "payment_date",
-      FieldHeader: "Payment Date",
+      FieldValue: "stateName",
+      FieldHeader: "stateName",
       component: {
         render: (row) => {
-          return <p>{dayjs(row.payment_date).format("DD-MMM-YYYY: h:mm A")}</p>;
+          return <p>{dayjs(row.stateName).format("DD-MMM-YYYY: h:mm A")}</p>;
         },
       },
     },
@@ -81,9 +70,9 @@ const Component = () => {
       component: {
         type: "checkbox",
         changeHandler: (i, val) => {
-          let arr = [...StudentList];
+          let arr = [...StateList];
           arr[i].isChecked = val;
-          setStudentList(arr);
+          setStateList(arr);
         },
       },
     },
@@ -94,7 +83,7 @@ const Component = () => {
       <MPSTableVarient
         caption=""
         fields={Fields1}
-        data={StudentList}
+        data={StateList}
         showSorting={false}
         paginationItemsCount={10}
         showPagination={false}

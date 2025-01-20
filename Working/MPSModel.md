@@ -18,13 +18,20 @@ const Component = () => {
 
   return (
     <div>
+    <MPSCustomButton
+        text="Get Name"
+        onClickHandler={()=>setshowModal(true)}
+        buttonColor="success"
+        buttonIcon="bi-search"
+      />
       <MPSModel
         modelHeader="Your Label"
         show={showModal}
         onHide={() => setshowModal(false)}
         size="lg"
       >
-        <ComponentToShow />
+        helo how are you
+      
       </MPSModel>
     </div>
   );

@@ -33,14 +33,15 @@ const Component = () => {
         label="Select city"
         placeholder="Select"
         options={tableData}
-        selectLabel="city_name"
-        selectValue="cityid"
+        selectLabel="cityName"
+        selectValue="cityId"
         value={SelectedData}
         onChange={(val: any) => {
           errors.city_name = null;
           if (val) {
             setSelectedData(val);
             setValue("city_name", val);
+            alert(val,"hello")
           } else {
             setSelectedData(null);
             setValue("city_name", null);
