@@ -7,7 +7,7 @@ interface IconProps extends React.HTMLProps<IconElement> {
 }
 
 export const MPSIconBS = React.forwardRef<IconElement, IconProps>(
-  ({ icon, ...props }) => {
-    return <i className={`bi ${icon}`} {...props}></i>;
+  ({ icon, ...props }, ref) => {
+    return <i className={`bi ${icon}`} {...props} ref={ref}></i>;
   }
 );
